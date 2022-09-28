@@ -180,7 +180,7 @@ dd {
 menu,
 ol,
 ul {
-    padding: 0 0 0 40px
+    padding: 0 0 0 100px
 }
 
 nav ul,
@@ -479,7 +479,7 @@ textarea {
     color: #ffffde;
     font-weight: 500;
     z-index: 999;
-    border-bottom: 2px solid #14554e;
+    border-bottom: 2px solid #1F766D;
     font-size: 22px
 }
 
@@ -520,7 +520,7 @@ textarea {
 
 .menu-item a:hover {
     transition: color 50ms;
-    color: #d94362
+    color: #FFD124
 }
 
 .menu-separator {
@@ -647,7 +647,7 @@ textarea {
 }
 
 body {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Poppins', serif;
     margin: 0;
     padding: 0;
     background: #ffffde;
@@ -663,8 +663,35 @@ a {
 }
 
 a:hover {
-    color: #d94362;
+    color: #ffffff;
     transition: color 50ms
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+.alpha{
+    width: 85px;
+    margin-left: -120px;
+}
+
+.ttg{
+    background: #D2E4E2;
+    height: 12vh;
+    margin-left: -55px;
+}
+
+.visi, .misi{
+    color: #FFD124;
 }
 
 h1 {
@@ -672,13 +699,13 @@ h1 {
     font-size: 77px;
     margin: 0;
     padding: 0;
-    color: #d94362
+    color: #ffffff
 }
 
 h2 {
-    font-weight: 100;
+    font-weight: 700;
     font-size: 76px;
-    color: #d94362;
+    color: #ffffff;
     margin: 0;
     padding: 0;
     position: relative
@@ -769,6 +796,13 @@ hr:after {
     width: 100%;
     height: 100px
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+  }
 
 .garden-mobile-cover {
     display: none
@@ -935,19 +969,29 @@ hr:after {
     position: absolute;
     top: 0;
     left: 0;
-    right: 0
+    right: 0;
+
 }
 
 
 .bg{
     background-image: url('../img/background.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vm{
+    padding-top: 100px;
+    margin-bottom: 280px;
 }
 
 .content {
-    background: #372d3b;
-    width: 100%;
+    background: #1F766D;
+    width: 101%;
     position: relative;
     top: -1px;
+    margin-left: -4px;
     margin-bottom: -2px;
     text-align: center
 }
@@ -963,7 +1007,11 @@ hr:after {
 
 .quem-somos {
     padding-top: 60px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    background-image: url('../img/tentang.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .quem-somos-title {
@@ -1343,6 +1391,7 @@ hr:after {
 
     .menu-item {
         display: block;
+        padding-left: 10px;
         height: 70px
     }
 
