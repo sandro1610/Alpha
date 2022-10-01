@@ -794,7 +794,11 @@ hr:after {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 100px;
+  height: 185px;
+}
+
+.sosial{
+  width: 200px;
 }
 
 .grid-container {
@@ -888,14 +892,6 @@ hr:after {
   }
 }
 
-.lago-ripple {
-  position: absolute;
-  top: -10px;
-  left: 0;
-  width: 400px;
-  height: 24px;
-  background: url("../img/parallax-1/ripple.html");
-}
 
 .lago-ripple:nth-child(1) {
   animation: ripple-down 6s linear infinite;
@@ -997,6 +993,13 @@ hr:after {
   margin-left: -4px;
   margin-bottom: -2px;
   text-align: center;
+}
+
+.ll{
+  background-image: url("../img/bg.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .content img {
@@ -1480,6 +1483,10 @@ hr:after {
   .ornament-right {
     display: none !important;
   }
+
+  .kk{
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 985px) {
@@ -1551,6 +1558,7 @@ hr:after {
     margin-bottom: 40px;
   }
 
+
   .servicos-item {
     margin-bottom: 80px;
   }
@@ -1588,6 +1596,10 @@ hr:after {
 @media (max-width: 450px) {
   .servicos-title {
     margin-bottom: 0px;
+  }
+
+  .kk{
+    font-size: 12px;
   }
 
   .quem-somos-text {
@@ -1631,6 +1643,7 @@ hr:after {
     display: block;
   }
 
+
   .gg {
     padding-left: 160px;
   }
@@ -1642,6 +1655,7 @@ hr:after {
   display: flex;
 }
 
+
 .cards-wrapper {
   display: flex;
   justify-content: center;
@@ -1649,6 +1663,10 @@ hr:after {
 .jalan img {
   max-width: 100%;
   max-height: 100%;
+}
+
+.yy{
+  padding-top: 100px;
 }
 
 .jalan {
@@ -1668,6 +1686,7 @@ hr:after {
 .icon-courosel {
   padding-top: 19em;
 }
+
 .carousel-item {
   margin-right: -100%;
 }
